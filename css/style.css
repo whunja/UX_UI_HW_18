@@ -11,7 +11,7 @@ body{
 
 #layer1{
     position:absolute;
-    top: 20px;
+    top: 10px;
     left: 100px;
    z-index: 10;
 }
@@ -185,6 +185,7 @@ button{
     border-radius: 4px;
     font-family: "Josefin Sans";
     font-size: 15px;
+    font-weight: 600;
     background-color: #D6CDEE;
     color: #252442;
     margin-top: 30px;
@@ -201,7 +202,7 @@ h3{
 }
 h5{
     font-family: Georgia;
-    font-size: 18px;
+    font-size: 16px;
     margin:auto;
     font-weight: 300;
     margin-left: 40px;
@@ -230,11 +231,4 @@ footer{
 
 ul.footer{
     float: left;
-}
-
-@media screen and (max-width: 600px) {
-    .left{
-        background-color: #252442;
-    }
-    
 }
